@@ -1,0 +1,214 @@
+@media (min-width: 1200px) {
+  
+ .mobile-sec{display: none ;}
+.desktop-sec{display: block; }
+  
+}
+
+@media only screen and (max-width: 1024px) {
+    
+}
+
+
+
+@media only screen and (max-width: 991px) {
+.display_table {
+    display: block;
+}   
+.height100 {
+    height: auto;
+}
+section {
+    padding-top: 150px;
+    display: block;
+    padding-bottom: 60px;
+}
+.about_content {
+    display: block;
+}  
+.platform_content, .blog_content, .contact_content {
+    display: block;
+}
+ul.footer_menu li {
+    padding-left: 20px;
+}
+section#blogs, #platform {
+    padding-bottom: 0;
+}
+.hero_txt h1 {
+    line-height: 40px;
+    font-size: 30px;
+}
+.header_section.head_left:before {
+    top: -30px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+    
+}
+
+
+
+@media only screen and (max-width: 767px){
+.hero_img {
+    display: block;
+    width: 100%;
+} 
+.hero_txt {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+}  
+#myNavbar{
+  display: none;
+}
+.menu-opener {
+    display: block;
+}
+.contact_form {
+    display: block;
+    width: 100%;
+    padding: 0px 15px;
+}
+.cont_img {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0px 15px;
+}
+.footer_right {
+    display: none;
+}
+.footer_left {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+.navbar-collapse {
+    border-top: none;
+    text-align: center;
+}
+section {
+    padding-top: 100px;
+}
+#hero_banner h1 {
+    font-size: 26px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.hero_lead_txt {
+    margin: 15px 0px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.btn.custom_theme_btn {
+    padding: 12px 30px;
+    font-size: 15px;
+}
+.header_section.head_left:before {
+    top: -25px;
+    height: 5px;
+    width: 45px;
+}
+.header_section h2 {
+    font-size: 30px;
+    line-height: 36px;
+}
+.about_content p {
+    font-size: 18px;
+    line-height: 30px;
+}
+section#about_us {
+    padding-bottom: 0;
+}
+ul.tabs li p {
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 10px 5px;
+}
+.nav-tabs>li>a{
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 10px 5px;
+}
+#contact_us {
+    padding-bottom: 0;
+}
+.blog_caption {
+    padding: 0px 15px;
+     bottom: 20px;
+}
+.blog_caption p {
+    font-size: 13px;
+    line-height: 20px;
+}
+.cont_img {
+    margin-bottom: 30px;
+}
+.blog_caption p:before {
+    bottom: -10px;
+}
+.header_section.head_center {
+    margin-bottom: 12px;
+}
+.header_section.head_left {
+    margin-top: 40px;
+}
+.menu-opener-inner::before, .menu-opener-inner::after {
+    width: 30px;
+}
+.menu-opener-inner {
+    width: 30px;
+}
+.menu-opener-inner::before {
+    -webkit-transform: translateY(-0.75rem);
+    -ms-transform: translateY(-0.75rem);
+    transform: translateY(-0.75rem);
+}
+.menu-opener-inner::after {
+    -webkit-transform: translateY(0.75rem);
+    -ms-transform: translateY(0.75rem);
+    transform: translateY(0.75rem);
+}
+#myNavbar .nav.navbar-nav {
+    margin: 15px 0px;
+}
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.platform_grid {
+    padding: 0;
+}
+textarea.form-control {
+    height: 90px;
+}
+}
+
+@media only screen and (max-width: 360px){
+ul.tabs li {
+    width: auto;
+}
+
+
+}
+
+@media only screen and (max-width: 479px)
+{
+.mobile-sec{display: block ;}
+.desktop-sec{display: none; }
+
+}
+
+/*mobile landscape*/
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+.mobile-sec{display: block ;}
+.desktop-sec{display: none; }
+
+}  
+.carousel .control-dots .dot {
+  
+    background: #ff671e;
+}
